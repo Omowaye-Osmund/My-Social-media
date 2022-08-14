@@ -1,0 +1,38 @@
+.App {
+    text-align: center;
+}
+
+.App h1,
+h4,
+h3 {
+    color: rgb(59, 59, 175);
+}
+
+.App input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: rgb(59, 59, 175);
+    width: 250px;
+}
+
+.App input:focus {
+    border-color: rgb(59, 59, 175);
+}
+
+div .App {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.app input:hover {
+    width: 150px;
+}
+
+.btn {
+    margin: 15px 0px 0px 190px;
+    color: white;
+    background-color: rgb(59, 59, 175);
+    border: 0px solid rgb(59, 59, 175);
+    width: 100px; 
+    border-radius: 10px;
+}
