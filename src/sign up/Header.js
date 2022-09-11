@@ -1,11 +1,11 @@
 import propTypes from 'prop-types';
 
-const Header = ({title}) => {
+const Header = (Fistbump) => {
   return   (
     <header>
-  <h1>{title}</h1>
+  <h1>Fistbump</h1>
     </header>
-  
+
   )  
 }
 

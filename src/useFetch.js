@@ -11,7 +11,7 @@ const useFetch = (url) => {
 // const abortError = new AbortController();
 
   setTimeout(() => {
-      fetch(' http://localhost:8000/blogs')
+      fetch(url)
     .then(res => {
           if (!res.ok) {
         throw Error('Could not fetch data from that resource')
@@ -37,7 +37,7 @@ const useFetch = (url) => {
 
 // return () => abortError.abort();
 
-    }, []);
+    }, [url]);
 
     return {data, isLoading, error};
 

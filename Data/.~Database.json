@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "My first blog",
+      "body": "lorem ipsum ipsum lorem ipsum ipsum lorem lorem",
+      "author": "Taiwo",
+      "id": 1
+    },
+    {
+      "title": "My second blog",
+      "body": "lorem ipsum ipsum lorem ipsum ipsum lorem lorem",
+      "author": "Omowaye",
+      "id": 2
+    },
+    {
+      "title": "Latest Blog",
+      "body": "This information is brought to you by Fist.inc",
+      "author": "Omowaye",
+      "id": 3
+    },
+    {
+      "title": "Breaking News!!!",
+      "body": "Fist-Bump has just added the blog feature to their social media",
+      "author": "Omowaye",
+      "id": 4
+    }
+  ]
+}
